@@ -8,6 +8,7 @@ class Interface extends Component {
     return (
       <div>
         <h1>Current Weather</h1>
+        <p>Location: {weather.name}</p>
         <p>
           Temp: {weather.main.temp}, feels like {weather.main.feels_like}
         </p>

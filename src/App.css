@@ -82,3 +82,28 @@
     transform: rotate(360deg);
   }
 }
+
+div {
+  margin: 25px;
+
+  border-radius: 15px;
+  /* box-shadow: 0px 15px 12px 3px rgba(0, 0, 0, 0.1); */
+  /* box-shadow: 6px -5px 4px 3px #224178; */
+  text-align: center;
+  /* background-color: #397af1; */
+
+  background: linear-gradient(
+    0deg,
+    rgba(34, 193, 195, 1) 0%,
+    rgba(45, 70, 253, 1) 98%
+  );
+}
+
+h1 {
+  padding-top: 10px;
+}
+
+p {
+  margin: 10px 10px;
+  padding-bottom: 10px;
+}
